@@ -2,9 +2,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #000;
+}
+
+.navbar-left{
+    justify-content: left;
+    position: relative;
 }
 
 .navbar-center{
     display: flex;
     list-style-type: none;
+}
+.navbar-center ul{
+    padding: .5rem;
+}
+.navbar-center a{
+    padding-left: 1rem;
 }
