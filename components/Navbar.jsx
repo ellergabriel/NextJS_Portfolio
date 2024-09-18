@@ -3,7 +3,7 @@ import './Navbar.css';
 
 const Navbar = () => {
     return(
-            <nav className="navbar">
+            <nav className="navbar bg-black-100">
                 <div className="navbar-left">
                     <a href="/" className="logo">
                         GEDesigns
