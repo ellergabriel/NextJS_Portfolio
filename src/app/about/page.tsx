@@ -1,5 +1,7 @@
+import './about.css';
+
 export default function About(){
     return(
-        <h2>you are viewing about.tsx</h2>
+        <h1>you are viewing about.tsx</h1>
     );
 }

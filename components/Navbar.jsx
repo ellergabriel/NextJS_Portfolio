@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
     return(
-            <nav className="navbar bg-black-100">
+            <nav className="navbar bg-black-100 sm:px-10 px-5">
                 <div className="navbar-left">
                     <a href="/" className="logo">
                         GEDesigns
