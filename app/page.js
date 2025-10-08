@@ -1,8 +1,16 @@
 'use client'
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Github, ExternalLink, Mail, Linkedin, ChevronDown, Filter, Calendar, Tag } from 'lucide-react';
 
 const Portfolio = () => {
+  useEffect(() => {
+    // Add smooth scrolling behavior
+    document.documentElement.style.scrollBehavior = 'smooth';
+    
+    return () => {
+    document.documentElement.style.scrollBehavior = 'auto';
+    };
+  }, []);
   const [selectedFilter, setSelectedFilter] = useState('all');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
