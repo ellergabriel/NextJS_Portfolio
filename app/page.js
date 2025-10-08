@@ -35,8 +35,8 @@ const Portfolio = () => {
     : projects.filter(project => project.category === selectedFilter);
 
   const skills = [
-    "JavaScript", "Python", "React", "Next.js", "Node.js", "TensorFlow",
-    "MongoDB", "PostgreSQL", "AWS", "Docker", "Git", "UI/UX Design"
+    "Java", "Python", "C++", "Selenium", "Android", "React", "Next.js", "Node.js",
+    "SQL", "AWS", "Git", "UI/UX Design"
   ];
 
   return (
@@ -46,7 +46,7 @@ const Portfolio = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Your Name
+              Gabriel Eller
             </h1>
             
             {/* Desktop Navigation */}
@@ -83,7 +83,7 @@ const Portfolio = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
             <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center text-white text-4xl font-bold">
-              YN
+              GE
             </div>
           </div>
           <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
@@ -110,13 +110,12 @@ const Portfolio = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-gray-600 leading-relaxed mb-6">
-                I'm a dedicated developer and researcher with a passion for solving complex problems 
-                through innovative technology solutions. My work spans both academic research and 
-                practical freelance projects, giving me a unique perspective on how theoretical 
-                concepts can be applied to real-world challenges.
+                I'm a dedicated developer with a passion for software development and math education. 
+                My work is a mix of academic projects completed at both Cal State San Marcos and Cal State Fullerton, 
+                with my freelance work being for Mathnasium of South Escondido. 
               </p>
               <p className="text-gray-600 leading-relaxed">
-                With experience in machine learning, web development, and user experience design, 
+                With experience in full stack development, user experience design, and AI driven development,
                 I enjoy working on projects that push the boundaries of what's possible while 
                 maintaining a focus on usability and impact.
               </p>
@@ -126,7 +125,6 @@ const Portfolio = () => {
               <ul className="space-y-2 text-gray-600">
                 <li>🎓 Computer Science Graduate</li>
                 <li>💼 3+ Years Freelance Experience</li>
-                <li>📚 Published Research Papers</li>
                 <li>🌍 Remote Work Experience</li>
                 <li>🚀 Always Learning New Technologies</li>
               </ul>
