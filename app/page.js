@@ -216,13 +216,6 @@ const Portfolio = () => {
                   
                   <div className="flex gap-3">
                     <a 
-                      href={project.demoLink}
-                      className="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium"
-                    >
-                      <ExternalLink className="w-4 h-4" />
-                      Demo
-                    </a>
-                    <a 
                       href={project.githubLink}
                       className="flex items-center gap-2 text-gray-600 hover:text-gray-700 font-medium"
                     >
