@@ -20,12 +20,12 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: "E-commerce Website",
+      title: "Mathnasium SES Rewards Display",
       category: "freelance",
-      tags: ["React", "Node.js", "MongoDB"],
-      description: "Full-stack e-commerce platform with payment integration and admin dashboard.",
+      tags: ["Python", "Selenium", "sqlite"],
+      description: "Digital rewards display created for Mathansium of South Escondido.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
-      githubLink: "#",
+      githubLink: "https://github.com/ellergabriel/MathnasiumSES-Rewards",
       date: "2024"
     }
   ];
@@ -87,11 +87,10 @@ const Portfolio = () => {
             </div>
           </div>
           <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-            Full-Stack Developer & Researcher
+            Graduate Student and Math Educator
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Passionate about creating innovative solutions through code and research. 
-            I bridge the gap between academic theory and practical applications.
+            Creating scaleable software solutions while teaching young minds. 
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#projects" className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium">
@@ -258,7 +257,7 @@ const Portfolio = () => {
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
             <a 
-              href="mailto:your.email@example.com"
+              href="mailto:ellergabriel13@gmail.com"
               className="flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg transition-colors font-medium"
             >
               <Mail className="w-5 h-5" />
@@ -272,7 +271,7 @@ const Portfolio = () => {
               LinkedIn
             </a>
             <a 
-              href="https://github.com/yourusername"
+              href="https://github.com/ellergabriel"
               className="flex items-center justify-center gap-3 border border-gray-600 hover:border-gray-500 px-8 py-4 rounded-lg transition-colors font-medium"
             >
               <Github className="w-5 h-5" />
@@ -281,7 +280,7 @@ const Portfolio = () => {
           </div>
           
           <p className="text-gray-400">
-            © 2024 Your Name. Built with Next.js and Tailwind CSS.
+            © 2025 Gabriel Eller. Built with Next.js and Tailwind CSS, assisted by ClaudeAI.
           </p>
         </div>
       </section>
