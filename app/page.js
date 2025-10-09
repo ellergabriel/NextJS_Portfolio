@@ -222,6 +222,8 @@ const Portfolio = () => {
                   <div className="flex gap-3">
                     <a 
                       href={project.githubLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center gap-2 text-gray-600 hover:text-gray-700 font-medium"
                     >
                       <Github className="w-4 h-4" />
@@ -278,6 +280,8 @@ const Portfolio = () => {
             </a>
             <a 
               href="https://github.com/ellergabriel"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 border border-gray-600 hover:border-gray-500 px-8 py-4 rounded-lg transition-colors font-medium"
             >
               <Github className="w-5 h-5" />
