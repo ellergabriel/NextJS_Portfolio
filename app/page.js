@@ -27,6 +27,16 @@ const Portfolio = () => {
       date: "2022"
     },
     {
+      id: 3,
+      title: "Towers of Hanoi Solver",
+      category: "academic",
+      tags: ["C++", "A* Search", "AI"],
+      description: "Primitive AI that uses the A* search algo to solve the 3 Towers of Hanoi in optimal time.",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
+      githubLink: "https://github.com/ellergabriel/TowersOfHanoi",
+      date: "2022"
+    },
+    {
       id: 2,
       title: "Mathnasium SES Rewards Display",
       category: "freelance",
@@ -36,6 +46,7 @@ const Portfolio = () => {
       githubLink: "https://github.com/ellergabriel/MathnasiumSES-Rewards",
       date: "2024"
     }
+    
   ];
 
   const filteredProjects = selectedFilter === 'all' 
@@ -43,7 +54,7 @@ const Portfolio = () => {
     : projects.filter(project => project.category === selectedFilter);
 
   const skills = [
-    "Java", "Python", "C++", "Selenium", "Android", "React", "Next.js", "Node.js",
+    "Java", "Python", "C++", "Selenium", "AI","Android", "React", "Next.js", "Node.js",
     "SQL", "AWS", "Git", "UI/UX Design"
   ];
 
