@@ -27,7 +27,7 @@ const Portfolio = () => {
       date: "2022"
     },
     {
-      id: 3,
+      id: 2,
       title: "Towers of Hanoi Solver",
       category: "academic",
       tags: ["C++", "A* Search", "AI"],
@@ -37,7 +37,7 @@ const Portfolio = () => {
       date: "2022"
     },
     {
-      id: 2,
+      id: 3,
       title: "Mathnasium SES Rewards Display",
       category: "freelance",
       tags: ["Python", "Selenium", "sqlite"],
@@ -45,8 +45,18 @@ const Portfolio = () => {
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
       githubLink: "https://github.com/ellergabriel/MathnasiumSES-Rewards",
       date: "2024"
+    },
+    {
+      id: 4,
+      title: "Mathnasium SES TextResponder",
+      category: "freelance",
+      tags: ["Python", "Selenium", "LLM API"],
+      description: "A Python application that leverages Selenium webscraping and Mistral LLM to simplify workflow for" + 
+                   "management at Mathnasium of South Escondido.",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
+      githubLink: "https://github.com/ellergabriel/TextResponder",
+      date: "2024"
     }
-    
   ];
 
   const filteredProjects = selectedFilter === 'all' 
