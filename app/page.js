@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { Github, ExternalLink, Mail, Linkedin, ChevronDown, Filter, Calendar, Tag } from 'lucide-react';
 
+
+
 const Portfolio = () => {
   useEffect(() => {
     // Add smooth scrolling behavior
