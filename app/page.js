@@ -279,11 +279,7 @@ const Portfolio = () => {
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-gray-900 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h3 className="text-3xl font-bold mb-6">Let's Work Together</h3>
-          <p className="text-gray-300 mb-8 text-lg">
-            I'm always interested in new opportunities and collaborations.
-            Whether you have a project in mind or just want to connect, I'd love to hear from you.
-          </p>
+          <h3 className="text-3xl font-bold mb-6">Contact</h3>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
             <a 
