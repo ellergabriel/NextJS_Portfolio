@@ -22,7 +22,7 @@ const Portfolio = () => {
       id: 1,
       title: "Android Password Manager",
       category: "academic",
-      tags: ["Mobile Development", "Android", "Java/Kotlin"],
+      tags: ["Mobile", "Android", "Java/Kotlin"],
       description: "Developed a password manager for Android devices with a small academic team.",
       image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=250&fit=crop",
       githubLink: "https://github.com/ellergabriel/Android-Password-Manager",
@@ -43,7 +43,7 @@ const Portfolio = () => {
       title: "Mathnasium SES Rewards Display",
       category: "freelance",
       tags: ["Python", "Selenium", "sqlite"],
-      description: "Digital rewards display created for Mathansium of South Escondido.",
+      description: "Digital rewards display created for the students of Mathansium of South Escondido.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
       githubLink: "https://github.com/ellergabriel/MathnasiumSES-Rewards",
       date: "2024"
@@ -54,7 +54,7 @@ const Portfolio = () => {
       category: "freelance",
       tags: ["Python", "Selenium", "LLM API"],
       description: "Python application that leverages Selenium webscraping and Mistral LLM to simplify workflow for" + 
-                   "management at Mathnasium of South Escondido.",
+                   " management at Mathnasium of South Escondido.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
       githubLink: "https://github.com/ellergabriel/TextResponder",
       date: "2024"
@@ -111,12 +111,11 @@ const Portfolio = () => {
 
       {/* Hero Section */}
       <section className="relative py-20 px-4">
-        <div className = "absolute inset-0 bg-black/10"></div>
+        <div className = "inset-0 bg-black/10"></div>
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
             {/*profile image*/}
-            <img src = "profile.jpg" className="object-top w-100 h-100 mx-auto mb-6 rounded-full">
-            </img>
+            <img src = "profile.jpg" className="object-top w-100 h-100 mx-auto mb-6 rounded-full"></img>
           </div>
           <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
             Graduate Student and Math Educator
@@ -155,7 +154,7 @@ const Portfolio = () => {
             <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-2xl">
               <h4 className="font-semibold text-gray-900 mb-4">Quick Facts</h4>
               <ul className="space-y-2 text-gray-600">
-                <li>🎓 Software Engineering Student</li>
+                <li>🎓 Software Engineering Graduate Student</li>
                 <li>💼 3+ Years Freelance Experience</li>
                 <li>🌍 Remote Work Experience</li>
                 <li>🚀 Always Learning New Technologies</li>
@@ -210,7 +209,7 @@ const Portfolio = () => {
             {filteredProjects.map((project) => (
               <div key={project.id} className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-shadow overflow-hidden group flex flex-col">
                 <div className="p-5 flex flex-col flex-grow">
-                  <div className="flex items-center justify-between mb-4 h-8">
+                  <div className="flex items-center justify-between h-5">
                     <span className={`px-3 py-1 rounded-full text-sm font-medium ${
                       project.category === 'academic' 
                         ? 'bg-purple-100 text-purple-700' 
