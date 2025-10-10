@@ -136,17 +136,17 @@ const Portfolio = () => {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-white">
+      <section id="about" className="py-20 bg-black/40">
         <div className="max-w-6xl mx-auto px-4">
-          <h3 className="text-3xl font-bold text-center mb-12 text-blue-600">About Me</h3>
+          <h3 className="text-3xl font-bold text-center mb-12 text-white-600">About Me</h3>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-gray-600 leading-relaxed mb-6">
+              <p className="text-white-600 leading-relaxed mb-6">
                 I'm a dedicated developer with a passion for software development and math education. 
                 My work is a mix of academic projects completed at both Cal State San Marcos and Cal State Fullerton, 
                 and freelance work for Mathnasium of South Escondido. 
               </p>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-white-600 leading-relaxed">
                 With experience in full stack development, UX design, and AI driven development,
                 I enjoy working on projects that push the boundaries of what's possible while 
                 maintaining a focus on usability and impact.
@@ -166,9 +166,9 @@ const Portfolio = () => {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-20 bg-gray-50">
+      <section id="projects" className="py-20 bg-black/40">
         <div className="max-w-6xl mx-auto px-4">
-          <h3 className="text-3xl font-bold text-center mb-12 text-blue-600">Featured Projects</h3>
+          <h3 className="text-3xl font-bold text-center mb-12 text-white-600">Featured Projects</h3>
           
           {/* Filter Buttons */}
           <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -256,9 +256,9 @@ const Portfolio = () => {
       </section>
 
       {/* Skills Section */}
-      <section id="skills" className="py-20 bg-white">
+      <section id="skills" className="py-20 bg-black/40">
         <div className="max-w-6xl mx-auto px-4">
-          <h3 className="text-3xl font-bold text-center mb-12 text-blue-600">Skills & Technologies</h3>
+          <h3 className="text-3xl font-bold text-center mb-12 text-white-600">Skills & Technologies</h3>
           <div className="flex flex-wrap justify-center gap-4">
             {skills.map((skill, index) => (
               <span 
