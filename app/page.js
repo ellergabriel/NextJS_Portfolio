@@ -14,7 +14,7 @@ const Portfolio = () => {
   const [selectedFilter, setSelectedFilter] = useState('all');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Sample projects data - replace with your actual projects
+  //Project storage
   const projects = [
     {
       id: 1,
@@ -108,7 +108,8 @@ const Portfolio = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="py-20 px-4">
+      <section className="relative py-20 px-4">
+        <div className = "absolute inset-0 bg-black/10"></div>
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
             <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center text-white text-4xl font-bold">
@@ -135,13 +136,13 @@ const Portfolio = () => {
       {/* About Section */}
       <section id="about" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4">
-          <h3 className="text-3xl font-bold text-center mb-12">About Me</h3>
+          <h3 className="text-3xl font-bold text-center mb-12 text-blue-600">About Me</h3>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-gray-600 leading-relaxed mb-6">
                 I'm a dedicated developer with a passion for software development and math education. 
                 My work is a mix of academic projects completed at both Cal State San Marcos and Cal State Fullerton, 
-                with my freelance work being for Mathnasium of South Escondido. 
+                with freelance work for Mathnasium of South Escondido. 
               </p>
               <p className="text-gray-600 leading-relaxed">
                 With experience in full stack development, user experience design, and AI driven development,
@@ -152,7 +153,7 @@ const Portfolio = () => {
             <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-2xl">
               <h4 className="font-semibold text-gray-900 mb-4">Quick Facts</h4>
               <ul className="space-y-2 text-gray-600">
-                <li>🎓 Computer Science Graduate</li>
+                <li>🎓 Software Engineering Student</li>
                 <li>💼 3+ Years Freelance Experience</li>
                 <li>🌍 Remote Work Experience</li>
                 <li>🚀 Always Learning New Technologies</li>
@@ -165,7 +166,7 @@ const Portfolio = () => {
       {/* Projects Section */}
       <section id="projects" className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
-          <h3 className="text-3xl font-bold text-center mb-12">Featured Projects</h3>
+          <h3 className="text-3xl font-bold text-center mb-12 text-blue-600">Featured Projects</h3>
           
           {/* Filter Buttons */}
           <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -261,7 +262,7 @@ const Portfolio = () => {
       {/* Skills Section */}
       <section id="skills" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4">
-          <h3 className="text-3xl font-bold text-center mb-12">Skills & Technologies</h3>
+          <h3 className="text-3xl font-bold text-center mb-12 text-blue-600">Skills & Technologies</h3>
           <div className="flex flex-wrap justify-center gap-4">
             {skills.map((skill, index) => (
               <span 
