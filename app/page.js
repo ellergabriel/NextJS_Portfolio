@@ -114,8 +114,8 @@ const Portfolio = () => {
         <div className = "absolute inset-0 bg-black/10"></div>
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
-            <img src = "profile.jpg" className="w-100 h-100 mx-auto mb-6 rounded-full">
-              {/*<img src="profile.jpg" ></img> */}
+            {/*profile image*/}
+            <img src = "profile.jpg" className="object-top w-100 h-100 mx-auto mb-6 rounded-full">
             </img>
           </div>
           <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
