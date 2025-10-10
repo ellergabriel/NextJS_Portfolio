@@ -114,9 +114,9 @@ const Portfolio = () => {
         <div className = "absolute inset-0 bg-black/10"></div>
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
-            <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center text-white text-4xl font-bold">
-              GE
-            </div>
+            <img src = "profile.jpg" className="w-100 h-100 mx-auto mb-6 rounded-full">
+              {/*<img src="profile.jpg" ></img> */}
+            </img>
           </div>
           <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
             Graduate Student and Math Educator
