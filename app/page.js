@@ -51,7 +51,7 @@ const Portfolio = () => {
       title: "Mathnasium SES TextResponder",
       category: "freelance",
       tags: ["Python", "Selenium", "LLM API"],
-      description: "A Python application that leverages Selenium webscraping and Mistral LLM to simplify workflow for" + 
+      description: "Python application that leverages Selenium webscraping and Mistral LLM to simplify workflow for" + 
                    "management at Mathnasium of South Escondido.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
       githubLink: "https://github.com/ellergabriel/TextResponder",
@@ -142,10 +142,10 @@ const Portfolio = () => {
               <p className="text-gray-600 leading-relaxed mb-6">
                 I'm a dedicated developer with a passion for software development and math education. 
                 My work is a mix of academic projects completed at both Cal State San Marcos and Cal State Fullerton, 
-                with freelance work for Mathnasium of South Escondido. 
+                and freelance work for Mathnasium of South Escondido. 
               </p>
               <p className="text-gray-600 leading-relaxed">
-                With experience in full stack development, user experience design, and AI driven development,
+                With experience in full stack development, UX design, and AI driven development,
                 I enjoy working on projects that push the boundaries of what's possible while 
                 maintaining a focus on usability and impact.
               </p>
@@ -206,14 +206,9 @@ const Portfolio = () => {
           {/* Projects Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredProjects.map((project) => (
-              <div key={project.id} className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-shadow overflow-hidden group">
-                <div className="relative overflow-hidden">
-                  <img 
-                    src={project.image} 
-                    alt={project.title}
-                    className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                  <div className="absolute top-4 left-4">
+              <div key={project.id} className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-shadow overflow-hidden group flex flex-col">
+                <div className="p-5 flex flex-col flex-grow">
+                  <div className="flex items-center justify-between mb-4 h-8">
                     <span className={`px-3 py-1 rounded-full text-sm font-medium ${
                       project.category === 'academic' 
                         ? 'bg-purple-100 text-purple-700' 
@@ -221,14 +216,13 @@ const Portfolio = () => {
                     }`}>
                       {project.category === 'academic' ? 'Academic' : 'Freelance'}
                     </span>
-                  </div>
-                  <div className="absolute top-4 right-4 flex gap-2">
-                    <Calendar className="w-4 h-4 text-white" />
-                    <span className="text-white text-sm font-medium">{project.date}</span>
+                    <div className="flex items-center gap-1">
+                      <Calendar className="w-4 h-4 text-gray-500" />
+                      <span className="text-gray-500 text-sm font-medium">{project.date}</span>
+                    </div>
                   </div>
                 </div>
-                
-                <div className="p-6">
+                <div className="p-4">
                   <h4 className="font-bold text-xl text-gray-900 mb-3">{project.title}</h4>
                   <p className="text-gray-600 mb-4 leading-relaxed">{project.description}</p>
                   
@@ -241,7 +235,7 @@ const Portfolio = () => {
                     ))}
                   </div>
                   
-                  <div className="flex gap-3">
+                  <div className="flex gap-3 mt-auto">
                     <a 
                       href={project.githubLink}
                       target="_blank"
@@ -290,7 +284,9 @@ const Portfolio = () => {
               Send Email
             </a>
             <a 
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/gabriel-eller-2ba31721b/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 border border-gray-600 hover:border-gray-500 px-8 py-4 rounded-lg transition-colors font-medium"
             >
               <Linkedin className="w-5 h-5" />
@@ -308,7 +304,7 @@ const Portfolio = () => {
           </div>
           
           <p className="text-gray-400">
-            © 2025 Gabriel Eller. Built with Next.js and Tailwind CSS, assisted by ClaudeAI.
+            © 2025 Gabriel Eller. Built with Next.js and Tailwind CSS, assisted by Claude.
           </p>
         </div>
       </section>
