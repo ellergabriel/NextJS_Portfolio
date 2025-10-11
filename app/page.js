@@ -150,6 +150,10 @@ const Portfolio = () => {
                 I enjoy working on projects that push the boundaries of what's possible while 
                 maintaining a focus on usability and impact.
               </p>
+              <p className="text-white-600 leading-relaxed">
+                In my free time, I'm usually in the backyard experimeting with my smoker or kettle grill.
+                There's few things I love more than good BBQ and feeding my friends and family. 
+              </p>
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-2xl">
               <h4 className="font-semibold text-gray-900 mb-4">Quick Facts</h4>
