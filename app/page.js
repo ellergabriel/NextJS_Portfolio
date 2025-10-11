@@ -143,9 +143,10 @@ const Portfolio = () => {
               <p className="text-white-600 leading-relaxed mb-6">
                 I'm a dedicated developer with a passion for software development and math education. 
                 My work is a mix of academic projects completed at both Cal State San Marcos and Cal State Fullerton, 
-                and freelance work for Mathnasium of South Escondido. 
+                and freelance work for Mathnasium of South Escondido. At the moment, I am working as Center Director
+                for Mathnasium of Murrieta, where I oversee day-to-day operations. 
               </p>
-              <p className="text-white-600 leading-relaxed">
+              <p className="text-white-600 leading-relaxed mb-6">
                 With experience in full stack development, UX design, and AI driven development,
                 I enjoy working on projects that push the boundaries of what's possible while 
                 maintaining a focus on usability and impact.
@@ -159,7 +160,7 @@ const Portfolio = () => {
               <h4 className="font-semibold text-gray-900 mb-4">Quick Facts</h4>
               <ul className="space-y-2 text-gray-600">
                 <li>🎓 Software Engineering Graduate Student</li>
-                <li>💼 3+ Years Freelance Experience</li>
+                <li>💼 3+ Years Software Development Experience</li>
                 <li>🌍 Remote Work Experience</li>
                 <li>🚀 Always Learning New Technologies</li>
               </ul>
