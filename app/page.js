@@ -58,6 +58,17 @@ const Portfolio = () => {
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
       githubLink: "https://github.com/ellergabriel/TextResponder",
       date: "2024"
+    },
+    {
+      id: 5,
+      title: "Roblox CMMI Quiz Game",
+      category: "academic",
+      tags: ["Roblox", "Luau", "Metaverse"],
+      description: "Roblox Experience that tests user knowldge on CMMI software process models, created for " + 
+                   "CSPC 544 at Cal State Fullerton.",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
+      githubLink: "http://roblox.com/games/82726470563104/Team-6-CMMI-Quiz-GameEg17165%@",
+      date: "2025"
     }
   ];
 
